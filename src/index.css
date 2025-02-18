@@ -21,20 +21,22 @@ body {
   margin-bottom: 2rem;
   font-size: 3rem;
   font-weight: 500;
-  background: #f5efda;
+  background: #9be4f8;
   border-radius: .5rem;
   padding: 0.5rem;
   display: flex;
   align-items: center;
+  overflow: scroll;
+  scrollbar-width: none ;
 }
 
 .wrapper {
-  background: #f6f8f9;
+  background: #424f55;
   width: 20rem;
   padding: 2rem;
   margin-top: 4rem;
   border-radius: 1rem;
-  box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 9px 15px -3px rgb(21, 22, 22);
 }
 
 .buttonBox {
@@ -44,7 +46,7 @@ body {
 }
 
 .button {
-  background: #e9f0f4;
+  background: #060708;
   height: 3.5rem;
   padding: 10px;
   border-radius: 10px;
@@ -52,7 +54,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: #242424;
+  color: #fcfafa;
   border: none;
   font-size: 1.5rem;
 }
@@ -62,7 +64,7 @@ body {
 }
 
 .equals {
-  background: #4bd086;
+  background: #67d5eb;
   grid-column: 3/5;
 }
 
